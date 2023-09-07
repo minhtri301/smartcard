@@ -1,0 +1,241 @@
+/* Note */
+/* .select2-dropdown .select2-search input:focus-visible{
+    
+} */
+.select2-container--default .select2-search--dropdown .select2-search__field:focus-visible {
+    outline: none;
+}
+
+.update-infomation .footer .btn{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.update-infomation .click-share.show {
+    color: #FF0000;
+}
+
+.swal2-container.swal2-top-end > .swal2-popup,
+.swal2-container.swal2-top-right > .swal2-popup {
+    font-size: 14px;
+    padding: 8px 16px;
+}
+
+.cl-green{
+    color: #198754;
+}
+
+.cl-red{
+    color: #dc3545;
+}
+
+.cl-orange{
+    color: #fd7e14;
+}
+
+.bg-green {
+    background: #198754;
+}
+
+.bg-red{
+    background: #dc3545;
+}
+
+.bg-orange{
+    background: #fd7e14;
+}
+
+.btn-share{
+    /* position: absolute; */
+    color: #ff0000;
+}
+
+#modalShare{
+    font-family: Inter,sans-serif!important;
+}
+
+.share-title{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.share-title span{
+    color: #ff0000;
+}
+
+.share-close{
+    position: absolute;
+    right: 0;
+    font-size: 10px;
+}
+
+.share-link-box .clipboard{
+    background-color: #000000;
+    border: 1px solid #dadcdd;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    font-weight: 600;
+    justify-content: space-evenly;
+    margin: 2.5vh auto 0;
+    position: relative;
+    width: 90%;
+}
+
+.share-link-box .clipboard span {
+    padding: 11px 0;
+}
+
+.modal-dialog{
+    margin: 0 auto;
+}
+
+.dropdown:focus-visible, .click-share:focus-visible{
+    outline: none;
+}
+
+@media (max-width: 658px){
+    .dropdow-editor {
+        left: -159px !important;
+    }
+}
+
+
+/* custom login */
+.loginPass input{
+    text-align: start;
+}
+.modals-pass{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modals-code{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modals-code .modal-content{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.modals-pass .modal-content{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* update password */
+#updatePass .form-group{
+    margin-bottom: 13px;
+}
+
+#updatePass label{
+    margin-bottom: 7px;
+}
+#updatePass input{
+    text-align: start;
+}
+.top-background{
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+}
+.top-background label{
+    position: absolute;
+    right: 0px;
+}
+.top-background label img{
+    width: 40px;
+}
+.top-background img{
+    object-fit: cover;
+    height: 100%;
+     width: 100%;
+}
+.img-avatar img {
+    width: 37px;
+}
+.home-avartar .avatar{
+    margin-top: 16px;
+}
+.banner-header{
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.banner-header-double{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(56, 64, 70, 0.7);
+}
+.services .icon-box img{
+    float: left;
+    color: #000000;
+    font-size: 40px;
+    line-height: 0;
+    width: 40px;
+    height: 40px;
+}
+.page-sub-content img{
+    object-fit: cover;
+    width: 100%;
+}
+.portfolio .portfolio-wrap{
+    margin-bottom: 20px !important;
+}
+
+@media (max-width: 576px){
+    #header .logo h1 a, #header .logo img {
+        max-height: 30px;
+    }
+}
+/* @media (min-width: 500px){
+    .custom-with{
+        width: 50%;
+        height: 60%;
+    }
+} */
+ /* path:hover{
+    fill:red;
+    stroke: blue;
+  } */
+svg:hover #path1  {
+      fill:rgb(255, 255, 255);
+      /* stroke: blue; */
+}
+svg:hover #path2 {
+    fill: #ff0000;
+}
+svg:hover .path3 {
+    fill:rgb(255, 255, 255);
+}
+svg{
+    left: -2px;
+    position: absolute;
+    top: -2px;
+}
+.zalo{
+    top: 11px
+}
